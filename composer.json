@@ -1,0 +1,27 @@
+{
+    "name": "betterflarum/myui",
+    "description": "A Flarum theme for VNPEDL Website.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/betterflarum/myui",
+        "source": "https://github.com/betterflarum/myui"
+    },
+    "require": {
+        "flarum/core": "*"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "BF Default UI Theme",
+            "category": "theme",
+            "icon": {
+                "name": "fab fa-uikit",
+                "backgroundColor": "#0078d4",
+                "color": "#FFF"
+            }
+        }
+    }
+}
