@@ -1,6 +1,6 @@
 {
     "name": "betterflarum/myui",
-    "description": "A Flarum theme for VNPEDL Website.",
+    "description": "A Flarum theme for VNPEDL",
     "keywords": [
         "flarum"
     ],
@@ -20,12 +20,12 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "BF Default UI Theme",
+            "title": "VNPEDL UI+",
             "category": "theme",
             "icon": {
-                "name": "fab fa-uikit",
-                "backgroundColor": "#0078d4",
-                "color": "#FFF"
+                "name": "fa fa-droplet",
+                "backgroundColor": "BLACK",
+                "color": "white"
             }
         }
     }
