@@ -13,6 +13,11 @@
     "require": {
         "flarum/core": "*"
     },
+    "autoload": {
+        "psr-4": {
+            "Blomstra\\UsercardStats\\": "src/"
+        }
+    },
     "extra": {
         "flarum-extension": {
             "title": "BF Default UI Theme",

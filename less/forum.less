@@ -4,9 +4,20 @@
 }
 * {outline-color: #23ad13!important;}
 
-/*TOP*/
-@media (min-width:961px){body .wrapper{display:none}}@media @phone{body .main-menu ul.sub-menu{width:8em!important;text-wrap:balance!important}body .wrapperpc{display:none}}@media (min-width:320px){.main-menu>li>a{padding:10px 5px}body .main-menu{font-size:11px}}.main-menu,.main-menu>li,.wrapper,.wrapperpc{z-index: 1012;background-color:#292a2d}.main-menu>li>a:hover{background-color:#414247}
+/*Extensions*/
+.UserCard {
+    .userStat {
+        .icon {
+            margin-right: 5px;
+          }
+    }
+}
+/*Extensions*/
 
+/*TOP*/
+header#header {
+background: #282828 !important;
+position: fixed;}
 
 /*font*/
 @font-face{font-family:mcten;src:url(https://raw.githubusercontent.com/lemonuwu08/vnpedldata2/main/MinecraftTen-VGORe.ttf)}
@@ -19,7 +30,7 @@ body {font-family: "mon",sans-serif !important;font-weight: 400;line-height: 1.5
 
 
 /*none*/
-#header.App-header .SessionDropdown .Dropdown-toggle .Avatar,#modal textarea.FormControl,.ButtonGroup.dadadownload>.Button:last-child:not(:first-child),.CommentPost-votes,.DiscussionListItem-count,.FlarumBlogItem .FlarumBlog-ToolButtons,.IndexPage-toolbar-action>li.item-rss-feed,.Modal.modal-dialog.fade.Modal--small.Support-Modal.in>.Modal-content>form>.Modal-body>.Form>.Form-group>label.Checkbox.off.Checkbox--switch,.Post-actions>ul>li.item-reply,.TagsPage .sideNav,.UserCard .item-points .icon,.UserCard-info>li.item-best-answer-count,.UserCard-info>li.item-points,.cont,.iconbadge,.normal .ComposerBody-header>li:first-child,.ulwb,.welcomebox-widget button.Dropdown-toggle.Button.logwbox.hasIcon,button.Dropdown-toggle.Button.Button--icon.Button--flat.delpostbutton.hasIcon,button.Dropdown-toggle.Button.Button--icon.Button--flat.hidebutton.hasIcon,fieldset.Settings-notifications,li.item-markAllAsRead,li.item-rankings,li.item-refresh,li.item-terminalPost,span.BlogFeatured-list-item-details-replies,span.UserOnline,.swal2-icon .swal2-icon-content,.Dropdown.dropdown.App-titleControl>.Dropdown-toggle.Button>.Button-label,#app.App.BlogItemPage.BlogItemPage--composer li.item-nearataDsts,.EventPost, .MobileTab-items li.item-tags, .chat-num-messages, .carousel__slide-description,.carousel__slide-title, .AfruxWidgets-Widget-title-icon, #app.App.App--index .DadaDiscuss .Button,span.BlogList-item-details-replies, .BlogFeaturedWidget-titleSeparator  {display:none!important;}
+#modal textarea.FormControl,.ButtonGroup.dadadownload>.Button:last-child:not(:first-child),.CommentPost-votes,.DiscussionListItem-count,.FlarumBlogItem .FlarumBlog-ToolButtons,.IndexPage-toolbar-action>li.item-rss-feed,.Modal.modal-dialog.fade.Modal--small.Support-Modal.in>.Modal-content>form>.Modal-body>.Form>.Form-group>label.Checkbox.off.Checkbox--switch,.Post-actions>ul>li.item-reply,.TagsPage .sideNav,.UserCard .item-points .icon,.UserCard-info>li.item-best-answer-count,.UserCard-info>li.item-points,.cont,.iconbadge,.normal .ComposerBody-header>li:first-child,.ulwb,.welcomebox-widget button.Dropdown-toggle.Button.logwbox.hasIcon,button.Dropdown-toggle.Button.Button--icon.Button--flat.delpostbutton.hasIcon,button.Dropdown-toggle.Button.Button--icon.Button--flat.hidebutton.hasIcon,fieldset.Settings-notifications,li.item-markAllAsRead,li.item-rankings,li.item-refresh,li.item-terminalPost,span.BlogFeatured-list-item-details-replies,span.UserOnline,.swal2-icon .swal2-icon-content,.Dropdown.dropdown.App-titleControl>.Dropdown-toggle.Button>.Button-label,#app.App.BlogItemPage.BlogItemPage--composer li.item-nearataDsts,.EventPost, .MobileTab-items li.item-tags, .chat-num-messages, .carousel__slide-description,.carousel__slide-title, .AfruxWidgets-Widget-title-icon, #app.App.App--index .DadaDiscuss .Button,span.BlogList-item-details-replies, .BlogFeaturedWidget-titleSeparator,#header.App-header .Avatar {display:none!important;}
 /*none*/
 
 /*   code gộp   */
@@ -27,6 +38,27 @@ body {font-family: "mon",sans-serif !important;font-weight: 400;line-height: 1.5
 
 /*mpc*/
 @media @desktop-up {
+
+#header.App-header span.LinksButton-title, a.LinksButton.SplitDropdown-button.Button.Button--link {
+    color: black;
+}
+#header.App-header .ButtonGroup.Dropdown.dropdown.Dropdown--split.LinkDropdown.itemCount2 {
+    background: white;
+    border-radius: 3px !important;
+    box-shadow: rgba(0,0,0,0.07000000000000001) 0px 1px 2px 0px, rgba(0,0,0,0.07000000000000001) 0px 2px 4px 0px, rgba(0,0,0,0.07000000000000001) 0px 4px 8px 0px, rgba(0,0,0,0.07000000000000001) 0px 8px 16px 0px, rgba(0,0,0,0.07000000000000001) 0px 16px 32px 0px, rgba(0,0,0,0.07000000000000001) 0px 32px 64px 0px;
+}
+#header.App-header a.LinksButton.Button.Button--link {
+    border-radius: 3px;
+        background: white !important;
+    color: black;
+}
+li.item-link3 {
+    padding: 0 10px;
+}
+#header.App-header .App-header .Button, .App-header .Button:hover {
+    color: #000000!important;
+    background: #ffffff!important;
+}
 
 .IndexPage-nav .item-downloadButton .Button {
     border-radius: 5px;
@@ -81,6 +113,16 @@ border-right: 7px solid #1e9f2a;
 /*dienthoai*/
 @media @phone {
 
+#drawer.App-drawer a.LinksButton.SplitDropdown-button.Button.Button--link {
+    color: white;
+}
+#drawer.App-drawer span.LinksButton-title {
+font-size: 15px !important;
+font-family: 'mon' !important;
+color: white;
+}
+.main-menu {display:none;}
+
 .DiscussionList-discussions {
 padding: 0 calc(2vw) 0 calc(3vw) !important;
 }
@@ -111,12 +153,9 @@ background: #ffffff45;
 }
 .carousel {
     min-height: 70vw !important;
-    margin-top: 20px !important;
+    margin-top: 7px !important;
 }
-.MobileTab-items {
-    margin: 0 5px !important;
-    width: calc(67vw);
-}
+
 .MobileTab-items>li>.Dropdown>.Button>.Button-label {
     color: black;
 }
@@ -351,11 +390,7 @@ position: relative;
 color: white !important;
 width: 150px !important;
 }
-#drawer.App-drawer span.LinksButton-title {
-font-size: 15px !important;
-font-family: 'mon' !important;
-color: black;
-}
+
 .DadaDiscuss .Button {
 margin: 25px 0 20px;
 }
@@ -518,6 +553,32 @@ content: "\f07c" !important;}
 }
 /*linhtinh*/
 
+.fa-box-archive:before, .fa-bookmark:before {
+    background-image: url(https://vnpedl.s3.us-west-004.backblazeb2.com/sparkle_pink.gif);
+    padding: 20px 0px;
+    background-size: cover;
+}
+.fa-bookmark:before {
+    content: "\f187" !important;
+    font-weight: 700;
+}
+button.Post.ReplyPlaceholder::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    RIGHT: -10px;
+    width: 120PX;
+    height: 120px;
+    background-image: url(https://kzzyk.com/assets/gif/speak.gif);
+    background-color: transparent;
+    transform: scale(.7);
+    background-size: cover;
+}
+.ReplyPlaceholder {
+    margin: 20px 0px 20px 0px !important;
+    border: 1px solid #bec3c9 !important;
+    padding: 12px 15px 15px 15px !important;
+    padding-left: 100px !important;}
 li.poptag-li {
     border-radius: 0 !important;
     font-size: 30px !important;
@@ -545,7 +606,7 @@ font-size: 14px !important;
     position: relative;
 }
 #header input[type=search] {
-    font-size: 12px !important;
+    font-size: 13px !important;
     border-color: white !important;
     background: white !important;
     border-radius: 3px !important;
@@ -1117,14 +1178,8 @@ span.AfruxWidgets-Widget-title-label.BlogFeaturedWidget-title {
     font-size: large;
     padding-right: 10px;
 }
-.ButtonGroup.Dropdown.dropdown.Dropdown--split.LinkDropdown.itemCount2 {
-    background: white;
-    border-radius: 3px !important;
-    box-shadow: rgba(0,0,0,0.07000000000000001) 0px 1px 2px 0px, rgba(0,0,0,0.07000000000000001) 0px 2px 4px 0px, rgba(0,0,0,0.07000000000000001) 0px 4px 8px 0px, rgba(0,0,0,0.07000000000000001) 0px 8px 16px 0px, rgba(0,0,0,0.07000000000000001) 0px 16px 32px 0px, rgba(0,0,0,0.07000000000000001) 0px 32px 64px 0px;
-}
-span.LinksButton-title, a.LinksButton.SplitDropdown-button.Button.Button--link {
-    color: black;
-}
+
+
 .carousel__slide-button:hover {
     background: #fff!important;
 }
