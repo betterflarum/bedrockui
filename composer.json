@@ -1,6 +1,6 @@
 {
     "name": "betterflarum/myui",
-    "description": "A Flarum theme for VNPEDL",
+    "description": "A Flarum theme for VNPEDL Website.",
     "keywords": [
         "flarum"
     ],
@@ -13,17 +13,12 @@
     "require": {
         "flarum/core": "*"
     },
-    "autoload": {
-        "psr-4": {
-            "Blomstra\\UsercardStats\\": "src/"
-        }
-    },
     "extra": {
         "flarum-extension": {
-            "title": "VNPEDL UI+",
+            "title": "Better VNPEDL UI+",
             "category": "theme",
             "icon": {
-                "name": "fa fa-droplet",
+                "name": "fa fa-droplet+",
                 "backgroundColor": "BLACK",
                 "color": "white"
             }
