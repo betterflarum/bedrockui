@@ -1,25 +1,31 @@
 {
-    "name": "betterflarum/myui",
-    "description": "A Flarum theme for VNPEDL Website.",
-    "keywords": [
-        "flarum"
-    ],
+    "name": "betterflarum/bedrockui",
+    "description": "Phần mở rộng cho Znpedl",
+  "keywords": [
+    "miiu"
+  ],
     "type": "flarum-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/betterflarum/myui",
-        "source": "https://github.com/betterflarum/myui"
+        "forum": "https://discuss.flarum.org/d/33572-next-admin-ui"
     },
     "require": {
-        "flarum/core": "*"
+        "flarum/core": "^1.8.1"
     },
+    "authors": [
+        {
+            "name": "BetterFlarum",
+            "email": "vnpedl@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "extra": {
         "flarum-extension": {
-            "title": "Better VNPEDL UI+",
+            "title": "Bedrock UI",
             "category": "theme",
             "icon": {
-                "name": "fa fa-droplet+",
-                "backgroundColor": "BLACK",
+                "name": "fas fa-toggle-on",
+                "backgroundColor": "darkgreen",
                 "color": "white"
             }
         }
